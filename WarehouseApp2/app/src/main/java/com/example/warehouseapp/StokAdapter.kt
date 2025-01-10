@@ -10,7 +10,7 @@ import android.widget.TextView
 class StokAdapter(
     var ctx: Context,
     var resource: Int,
-    var item: ArrayList<StokModel>
+    var item: List<StokModel>
 ) : ArrayAdapter<StokModel>(ctx, resource, item) {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
